@@ -8,7 +8,7 @@ const Home = () => {
             <div className='text-zone'>
                 <h1>Hi, <br /> I'm Brandon
                 <br />
-                software developer
+                software developer / college student
                 </h1>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
             </div>
