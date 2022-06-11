@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className='containter home-page'>
             <div className='text-zone'>
-                <h1>Hi, <br /> I'm Brandon
+                <h1>Hi, <br /> I'm Brandon,
                 <br />
                 Software Developer / College Student
                 </h1>
