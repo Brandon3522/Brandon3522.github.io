@@ -2,7 +2,7 @@
 
     .text-zone {
         position: absolute;
-        left: 35%;
+        left: 10%;
         top: 50%;
         transform: translateY(-50%);
         width: 40%;
@@ -11,11 +11,12 @@
 
     h1 {
         color: #fff;
-        font-size: 53px;
+        font-size: 56px;
+        line-height: 53px;
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
-        animation: fadeIn 1s 0.8s backwards;
+        white-space: nowrap;
     }
 
     .flat-button {
@@ -31,6 +32,7 @@
         float: left;
         animation: fadeIn 1s 1.5s backwards;
         white-space: nowrap;
+        margin-left: 225px;
 
         &:hover {
             background: #ffd700;
