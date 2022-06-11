@@ -17,6 +17,7 @@
         font-family: 'Coolvetica';
         font-weight: 400;
         white-space: nowrap;
+        animation: fadeIn 1s 1s backwards;
     }
 
     .flat-button {
@@ -32,7 +33,7 @@
         float: left;
         animation: fadeIn 1s 1.5s backwards;
         white-space: nowrap;
-        margin-left: 225px;
+        margin-left: 300px;
 
         &:hover {
             background: #ffd700;
