@@ -7,6 +7,18 @@
             "url": "https://github.com"
         },
         {
+            "cover": "/projects/1/event_manager.png",
+            "title": "Event Manager",
+            "description": "The system allows a client to register and manage events and members.",
+            "url": "https://github.com/Brandon3522/Software-Architecture-and-Design-CSCI-4602/tree/main/the-affair-manager-Brandon3522"
+        },
+        {
+            "cover": "/projects/1/one.png",
+            "title": "title",
+            "description": "description",
+            "url": "https://github.com"
+        },
+        {
             "cover": "/projects/1/one.png",
             "title": "title",
             "description": "description",
