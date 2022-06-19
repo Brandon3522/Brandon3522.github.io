@@ -14,7 +14,8 @@ const About = () => {
                 </p>
                 <p>
                     I am currently a student at Austin Peay State University. 
-                    I am pursuing a degree in Computer Science.
+                    I am pursuing a degree in Computer Science with a concentraion in software engineering 
+                    and a minor in mathematics. My expected graduation date is December 2022.
                 </p>
                 <p>
                     I have extensive knowledge of programming fundamentals 
@@ -26,6 +27,7 @@ const About = () => {
                     <li> C# </li>
                     <li> Java </li>
                     <li> Python </li>
+                    <li> HTML / CSS </li>
                     <li> JavaScript </li>
                     <li> TypeScript </li>
                 </ul>

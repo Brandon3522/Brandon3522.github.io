@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="container contact-page">
         <div className="text-zone">
           <h1>Contact me</h1>
-          <p>Lorem Ipsum: contact</p>
+          <p>I am interested in job opportunites as a software developer.</p>
           <div className="contact-form">
             <form>
               <ul>
@@ -38,7 +38,7 @@ const Contact = () => {
                     <textarea placeholder='Message' name='message' required></textarea>
                 </li>
                 <li>
-                    <input type='submit' classname='flat-button' value='SEND'></input>
+                    <input type='submit' className='flat-button' value='SEND'></input>
                 </li>
               </ul>
             </form>

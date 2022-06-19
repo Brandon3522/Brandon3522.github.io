@@ -65,6 +65,12 @@
         border: 1px solid #ffd700;
         float: right;
         border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+            background: #ffd700;
+            color: #333;
+        }
     }
 
 }
