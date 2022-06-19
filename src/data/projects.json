@@ -1,28 +1,18 @@
 {
     "projects": [
         {
-            "cover": "/projects/1/one.png",
-            "title": "title",
-            "description": "description",
+            "cover": "/projects/1/Student_registration.png",
+            "title": "Student Registration System",
+            "description": "Desktop application that allows students to keep track of courses. Additionally, professors are able to track and remove students registered within the system.",
+            "tools": "C# / Windows Presentation Foundation (WPF).",
             "url": "https://github.com"
         },
         {
             "cover": "/projects/1/event_manager.png",
             "title": "Event Manager",
-            "description": "The system allows a client to register and manage events and members.",
+            "description": "Console application that allows a client to register and manage events and members.",
+            "tools": "TypeScript / Node.js.",
             "url": "https://github.com/Brandon3522/Software-Architecture-and-Design-CSCI-4602/tree/main/the-affair-manager-Brandon3522"
-        },
-        {
-            "cover": "/projects/1/one.png",
-            "title": "title",
-            "description": "description",
-            "url": "https://github.com"
-        },
-        {
-            "cover": "/projects/1/one.png",
-            "title": "title",
-            "description": "description",
-            "url": "https://github.com"
         }
     ]
 }
