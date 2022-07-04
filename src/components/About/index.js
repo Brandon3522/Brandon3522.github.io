@@ -9,7 +9,7 @@ const About = () => {
                     About me
                 </h1>
                 <p>
-                    Hello. My name is Brandon and my interest in software devlopment began in 2018 when I 
+                    Hello. My name is Brandon and my interest in software devlopment began in 2017 when I 
                     started building computers.
                 </p>
                 <p>
@@ -21,7 +21,7 @@ const About = () => {
                     I have extensive knowledge of programming fundamentals 
                     and a solid foundation in software engineering principles.
                 </p>
-                <p>Technologies used:</p>
+                <p>Languages used:</p>
 
                 <ul>
                     <li> C# </li>

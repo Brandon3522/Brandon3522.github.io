@@ -7,21 +7,22 @@
   z-index: 3;
   min-height: 500px;
 
-  .logo {
-    display: block;
-    padding: 8px 0;
+  // logo styling if needed
+  // .logo {
+  //   display: block;
+  //   padding: 8px 0;
 
-    img {
-      display: block;
-      margin: 8px auto;
-      width: 24px;
-      height: auto;
+  //   img {
+  //     display: block;
+  //     margin: 8px auto;
+  //     width: 24px;
+  //     height: auto;
 
-      &.sub-logo {
-        width: 50px;
-      }
-    }
-  }
+  //     &.sub-logo {
+  //       width: 50px;
+  //     }
+  //   }
+  // }
 
   nav {
     display: block;
@@ -105,7 +106,7 @@
 
   ul {
     position: absolute;
-    bottom: 20px;
+    bottom: 150px;
     width: 100%;
     display: block;
     padding: 0;
@@ -115,14 +116,43 @@
 
     li {
       a {
-        padding: 7px 0;
+        //padding: 7px 0;
         display: block;
         font-size: 15px;
         line-height: 16px;
         color: #4d4d4e;
+        
 
-        &:hover svg {
+        &:hover {
           color: #ffd700;
+
+          svg {
+            opacity: 0;
+          }
+
+          &:after {
+            opacity: 1;
+          }
+        }
+
+        &:after {
+          content: '';
+          font-size: 9px;
+          letter-spacing: 2px;
+          position: absolute;
+          bottom: 0;
+          display: block;
+          width: 100%;
+          text-align: center;
+          opacity: 0;
+          -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+        }
+      }
+
+      a.github-link {
+        &:after {
+          content: 'GITHUB';
         }
       }
     }

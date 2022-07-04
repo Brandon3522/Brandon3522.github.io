@@ -3,14 +3,14 @@
         {
             "cover": "/projects/1/Student_registration.png",
             "title": "Student Registration System",
-            "description": "Desktop application that allows students to keep track of courses. Additionally, professors are able to track and remove students registered within the system.",
+            "description": "Desktop application that allows students to keep track of courses. Additionally, professors can track and remove students registered within the system.",
             "tools": "C# / Windows Presentation Foundation (WPF).",
             "url": "https://github.com"
         },
         {
             "cover": "/projects/1/event_manager.png",
-            "title": "Event Manager",
-            "description": "Console application that allows a client to register and manage events and members.",
+            "title": "Affair Manager",
+            "description": "Console application that allows a client to register and manage organizations, affairs and members.",
             "tools": "TypeScript / Node.js.",
             "url": "https://github.com/Brandon3522/Software-Architecture-and-Design-CSCI-4602/tree/main/the-affair-manager-Brandon3522"
         }

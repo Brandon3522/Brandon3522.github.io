@@ -41,6 +41,7 @@ const Sidebar = () => (
           target="_blank"
           rel="noreferrer"
           href="https://github.com/Brandon3522"
+          className='github-link'
         >
           <FontAwesomeIcon icon={faGithub} color="#4d4d4e"></FontAwesomeIcon>
         </a>
