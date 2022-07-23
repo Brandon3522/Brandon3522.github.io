@@ -1,6 +1,31 @@
 import './index.scss'
+import { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm(
+        'default_service',
+        'template_y8ch96v',
+        form.current,
+        'JWGy36Fo5l7EOtWtO' // user token ?
+      )
+      .then(
+        () => {
+          alert('Message success')
+          window.location.reload(false)
+        },
+        () => {
+          alert('Message failed')
+        }
+      )
+  }
+
   return (
     <>
       <div className="container contact-page">
@@ -8,7 +33,7 @@ const Contact = () => {
           <h1>Contact me</h1>
           <p>I am interested in job opportunites as a software developer.</p>
           <div className="contact-form">
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input
@@ -35,10 +60,18 @@ const Contact = () => {
                   ></input>
                 </li>
                 <li>
-                    <textarea placeholder='Message' name='message' required></textarea>
+                  <textarea
+                    placeholder="Message"
+                    name="message"
+                    required
+                  ></textarea>
                 </li>
                 <li>
-                    <input type='submit' className='flat-button' value='SEND'></input>
+                  <input
+                    type="submit"
+                    className="flat-button"
+                    value="Send"
+                  ></input>
                 </li>
               </ul>
             </form>
