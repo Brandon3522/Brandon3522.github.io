@@ -1,14 +1,14 @@
 {
     "projects": [
         {
-            "cover": "/projects/1/Student_registration.png",
+            "cover": "/projects/1/Student_registration.PNG",
             "title": "Student Registration System",
             "description": "Desktop application that allows students to keep track of courses. Additionally, professors can track and remove students registered within the system.",
             "tools": "C# / Windows Presentation Foundation (WPF).",
             "url": "https://github.com/Brandon3522/CSCI4600Project"
         },
         {
-            "cover": "/projects/1/event_manager.png",
+            "cover": "/projects/1/event_manager.PNG",
             "title": "Affair Manager",
             "description": "Console application that allows a client to register and manage organizations, affairs, and members.",
             "tools": "TypeScript / Node.js.",
