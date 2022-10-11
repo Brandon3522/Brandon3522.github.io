@@ -8,7 +8,7 @@ const Sidebar = () => (
   <div className="nav-bar">
     <nav>
       <NavLink exact="true" activeclassname="active" to="/">
-        <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+        <FontAwesomeIcon icon={faHome} color="#4d4d4e" size='lg' />
       </NavLink>
       <NavLink
         exact="true"
@@ -16,7 +16,7 @@ const Sidebar = () => (
         className="about-link"
         to="/about"
       >
-        <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+        <FontAwesomeIcon icon={faUser} color="#4d4d4e" size='lg' />
       </NavLink>
       <NavLink
         exact="true"
@@ -24,7 +24,7 @@ const Sidebar = () => (
         className="contact-link"
         to="/contact"
       >
-        <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+        <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" size='lg' />
       </NavLink>
       <NavLink
         exact="true"
@@ -32,7 +32,7 @@ const Sidebar = () => (
         className="projects-link"
         to="/projects"
       >
-        <FontAwesomeIcon icon={faComputer} color="#4d4d4e" />
+        <FontAwesomeIcon icon={faComputer} color="#4d4d4e" size='lg' />
       </NavLink>
     </nav>
     <ul>
@@ -43,7 +43,7 @@ const Sidebar = () => (
           href="https://github.com/Brandon3522"
           className='github-link'
         >
-          <FontAwesomeIcon icon={faGithub} color="#4d4d4e"></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faGithub} color="#4d4d4e" size='2xl'></FontAwesomeIcon>
         </a>
       </li>
     </ul>
