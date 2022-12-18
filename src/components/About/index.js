@@ -13,15 +13,14 @@ const About = () => {
                     started building computers.
                 </p>
                 <p>
-                    I am currently a student at Austin Peay State University. 
-                    I am pursuing a degree in Computer Science with a concentraion in software engineering 
-                    and a minor in mathematics. My expected graduation date is December 2022.
+                    I have a bachelors degree in computer science with a concentraion in software engineering 
+                    and a minor in mathematics from Austin Peay State University.
                 </p>
                 <p>
                     I have extensive knowledge of programming fundamentals 
                     and a solid foundation in software engineering principles.
                 </p>
-                <p>Languages used:</p>
+                <p>Languages / Technologies used:</p>
 
                 <ul>
                     <li> C# </li>
@@ -30,6 +29,8 @@ const About = () => {
                     <li> HTML / CSS </li>
                     <li> JavaScript </li>
                     <li> TypeScript </li>
+                    <li> React.js </li>
+                    <li> Firebase </li>
                 </ul>
             </div>
         </div>
