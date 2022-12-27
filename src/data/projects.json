@@ -3,7 +3,7 @@
     {
       "cover": "/projects/1/flash_carma.png",
       "title": "Flash Carma",
-      "description": "Flash Carma is a web application that utilizes digital flash cards and helps the user study their custom material in an entertaining and enjoyable manner.",
+      "description": "Flash Carma is a web application that utilizes digital flashcards and helps the user study their custom material in an\n entertaining and enjoyable manner.",
       "tools": "React.js / Chakra UI / Firebase / Node.js",
       "url": "https://github.com/Brandon3522/flash_carma"
     },

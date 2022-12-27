@@ -9,11 +9,12 @@ const About = () => {
                     About me
                 </h1>
                 <p>
-                    Hello. My name is Brandon and my interest in software devlopment began in 2017 when I 
-                    started building computers.
+                    Hello. My name is Brandon, and my interest in software development began in 2017 when I 
+                    started building computers. I am passionate about programming and always working on
+                    learning new concepts.
                 </p>
                 <p>
-                    I have a bachelors degree in computer science with a concentraion in software engineering 
+                    I have a bachelor's degree in computer science with a concentration in software engineering 
                     and a minor in mathematics from Austin Peay State University.
                 </p>
                 <p>
