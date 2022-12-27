@@ -4,21 +4,21 @@
       "cover": "/projects/1/flash_carma.png",
       "title": "Flash Carma",
       "description": "Flash Carma is a web application that utilizes digital flash cards and helps the user study their custom material in an entertaining and enjoyable manner.",
-      "tools": "React.js / Chakra UI / Firebase / Node.js.",
+      "tools": "React.js / Chakra UI / Firebase / Node.js",
       "url": "https://github.com/Brandon3522/flash_carma"
     },
     {
       "cover": "/projects/1/Student_registration.png",
       "title": "Student Registration System",
       "description": "Desktop application that allows students to keep track of courses. Additionally, professors can track and remove students registered within the system.",
-      "tools": "C# / Windows Presentation Foundation (WPF).",
+      "tools": "C# / Windows Presentation Foundation (WPF)",
       "url": "https://github.com/Brandon3522/CSCI4600Project"
     },
     {
       "cover": "/projects/1/event_manager.png",
       "title": "Affair Manager",
       "description": "Console application that allows a client to register and manage organizations, affairs, and members.",
-      "tools": "TypeScript / Node.js.",
+      "tools": "TypeScript / Node.js",
       "url": "https://github.com/Brandon3522/Software-Architecture-and-Design-CSCI-4602/tree/main/the-affair-manager-Brandon3522"
     }
   ]
