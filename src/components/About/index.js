@@ -10,7 +10,7 @@ const About = () => {
                 </h1>
                 <p>
                     Hello. My name is Brandon, and my interest in software development began in 2017 when I 
-                    started building computers. I am passionate about programming and always working on
+                    started building computers. I am passionate about programming and constantly working on
                     learning new concepts.
                 </p>
                 <p>

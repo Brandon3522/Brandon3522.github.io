@@ -30,7 +30,7 @@
       }
 
       &:hover {
-        color: #00ADB5;
+        color: #00adb5;
 
         svg {
           opacity: 0;
@@ -82,7 +82,7 @@
 
     a.active {
       svg {
-        color: #00ADB5;
+        color: #00adb5;
       }
     }
   }
@@ -100,13 +100,13 @@
     li {
       a {
         display: block;
+        padding: 7px 0;
         font-size: 15px;
         line-height: 16px;
-        color: #393E46;
-        
+        color: #393e46;
 
         &:hover {
-          color: #00ADB5;
+          color: #00adb5;
 
           svg {
             opacity: 0;
@@ -132,9 +132,17 @@
         }
       }
 
+      a.linkedIn-link {
+        &:after {
+          content: 'LINKEDIN';
+          padding-bottom: 55px;
+        }
+      }
+
       a.github-link {
         &:after {
           content: 'GITHUB';
+          padding-bottom: 10px;
         }
       }
     }

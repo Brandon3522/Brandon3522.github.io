@@ -1,8 +1,9 @@
 import './index.scss'
 import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import { faHome, faUser, faEnvelope, faComputer } from '@fortawesome/free-solid-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
   <div className="nav-bar">
@@ -36,6 +37,16 @@ const Sidebar = () => (
       </NavLink>
     </nav>
     <ul>
+      <li>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/brandon-sitz-465859255/"
+          className='linkedIn-link'
+        >
+          <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" size='2xl'></FontAwesomeIcon>
+        </a>
+      </li>
       <li>
         <a
           target="_blank"
