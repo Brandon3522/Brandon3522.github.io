@@ -13,7 +13,7 @@ const Contact = () => {
         'default_service',
         'template_y8ch96v',
         form.current,
-        'JWGy36Fo5l7EOtWtO' // user token ?
+        'JWGy36Fo5l7EOtWtO' // user token
       )
       .then(
         () => {
