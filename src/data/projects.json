@@ -7,6 +7,13 @@
       "tools": "React.js / Chakra UI / Firebase / Node.js",
       "url": "https://github.com/Brandon3522/flash_carma"
     },
+		{
+      "cover": "/projects/1/home.png",
+      "title": "Amazon Clone",
+      "description": "A fully functional e-commerce website that mimics Amazon's layout and functionality",
+      "tools": "React.js / Redux / Firebase / Stripe API / Fake Store API",
+      "url": "https://github.com/Brandon3522/amazon-clone"
+    },
     {
       "cover": "/projects/1/Student_registration.png",
       "title": "Student Registration System",
