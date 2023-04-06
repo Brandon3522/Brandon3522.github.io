@@ -9,6 +9,7 @@
   h1.title {
     margin-left: 100px;
     margin-top: 120px;
+		animation: fadeIn 1s forwards .5s;
   }
 
   .images-container {
@@ -21,9 +22,12 @@
   .image-box {
     position: relative;
     flex: 1 1 20%;
-    height: 400px;
+    min-height: 400px;
+		min-width: 200px;
     overflow: hidden;
     border-radius: 10px;
+		opacity: 0;
+		animation: fadeIn 1s forwards 1s;
     // max-width: calc(25% - 10px); // Limits size of image box
 
     .projects-image {
@@ -55,6 +59,7 @@
       font-size: 24px;
       font-weight: 500;
       line-height: 24px;
+			animation: none;
     }
 
     .description {
