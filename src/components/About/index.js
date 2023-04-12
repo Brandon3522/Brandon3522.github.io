@@ -5,23 +5,31 @@ const About = () => {
     <div className="container about-page">
       <div className="text-zone">
         <h1>About me</h1>
-        <p className='p1'>
-          Hello. My name is Brandon, and my interest in software development
-          began in 2017 when I started building computers. I am passionate about
-          programming and constantly working on learning new concepts.
+        <p className="p1">
+          Hello, my name is Brandon, and I'm a software developer with a passion
+          for programming and a desire to constantly learn and grow. My journey
+          in software development started in 2017 when I built my first
+          computer, and since then, I have been captivated by the endless
+          possibilities that programming offers.
         </p>
-        <p className='p2'>
-          I have a bachelor's degree in computer science with a concentration in
-          software engineering and a minor in mathematics from Austin Peay State
-          University.
-        </p>
-        <p className='p3'>
-          I have extensive knowledge of programming fundamentals and a solid
+        <p className="p2">
+          I recently graduated from Austin Peay State University with a
+          bachelor's degree in computer science, specializing in software
+          engineering, and minoring in mathematics. Through my studies, I gained
+          extensive knowledge of programming fundamentals and developed a strong
           foundation in software engineering principles.
         </p>
-        <p className='p4'>Languages / Technologies used:</p>
+        <p className="p3">
+          In addition to my academic achievements, I have experience working on
+          a variety of programming projects, including developing web-based
+          applications. I am proficient in C#, Python, and JavaScript and have
+          experience working with React and Node.js. When I'm not programming, I
+          enjoy playing guitar and listening to music. I'm excited to bring my
+          skills and passion to a software development role
+        </p>
+        <p className="p4">Languages / Technologies used:</p>
 
-        <ul className='ul-list'>
+        <ul className="ul-list">
           <li> C# </li>
           <li> Java </li>
           <li> Python </li>
