@@ -21,11 +21,10 @@ const About = () => {
         </p>
         <p className="p3">
           In addition to my academic achievements, I have experience working on
-          a variety of programming projects, including developing web-based
-          applications. I am proficient in C#, Python, and JavaScript and have
-          experience working with React and Node.js. When I'm not programming, I
-          enjoy playing guitar and listening to music. I'm excited to bring my
-          skills and passion to a software development role
+          a variety of programming projects, including developing desktop
+          applications and web-based systems. I am proficient in C#, Python, and
+          JavaScript and have experience working with React.js. When
+          I'm not programming, I enjoy playing guitar and listening to music.
         </p>
         <p className="p4">Languages / Technologies used:</p>
 
