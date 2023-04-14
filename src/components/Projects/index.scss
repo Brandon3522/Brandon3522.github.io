@@ -12,14 +12,14 @@
 		animation: fadeIn 1s forwards .5s;
   }
 
-  .images-container {
+  .project-container {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
     padding-bottom: 100px;
   }
 
-  .image-box {
+  .project-card {
     position: relative;
     flex: 1 1 30%;
     min-height: 400px;

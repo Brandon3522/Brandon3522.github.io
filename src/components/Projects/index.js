@@ -4,20 +4,20 @@ import ProjectData from '../../data/projects.json'
 const Projects = () => {
   const renderProjects = (projects) => {
     return (
-      <div className="images-container">
-        {projects.map((port, idx) => {
+      <div className="project-container">
+        {projects.map((project, idx) => {
           return (
-            <div className="image-box" key={idx}>
+            <div className="project-card" key={idx}>
               <img
-                src={port.cover}
+                src={project.cover}
                 alt="projects"
                 className="projects-image"
               ></img>
               <div className="content">
-                <p className="title">{port.title}</p>
-                <h4 className="description">{port.description}</h4>
-                <h4 className="tools">{port.tools}</h4>
-                <button className="btn" onClick={() => window.open(port.url)}>
+                <p className="title">{project.title}</p>
+                <h4 className="description">{project.description}</h4>
+                <h4 className="tools">{project.tools}</h4>
+                <button className="btn" onClick={() => window.open(project.url)}>
                   View
                 </button>
               </div>
