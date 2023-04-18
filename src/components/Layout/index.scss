@@ -59,3 +59,15 @@
     font-weight: 300;
   }
 }
+
+@media screen and (max-width: 800px) {
+	.page {
+		position: initial;
+	}
+
+	.container {
+		position: initial;
+		height: auto;
+		min-height: auto;
+	}
+}

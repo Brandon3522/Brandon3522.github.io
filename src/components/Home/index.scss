@@ -44,3 +44,26 @@
 
     }
 }
+
+@media screen and (max-width: 800px) {
+	.home-page {
+		.text-zone {
+			position: initial;
+			width: 100%;
+			transform: none;
+			padding: 15px;
+			box-sizing: border-box;
+			margin-top: 100px;
+		}
+
+		h1 {
+			font-size: 40px;
+		}
+
+		.flat-button {
+			display: block;
+			margin: 20px auto 0 auto;
+			width: 100px;
+		}
+	}
+}

@@ -1,24 +1,14 @@
-p {
-	animation: pulse 1s;
+@media screen and (max-width: 800px) {
+	.about-page {
+		.text-zone {
+			position: initial;
+			width: 100%;
+			transform: none;
+			padding: 15px;
+			box-sizing: border-box;
+			margin-top: 100px;
+			display: block;
+		}
+	}
 }
 
-.p1 {
-	animation-delay: 1.1s;
-}
-
-.p2 {
-	animation-delay: 1.2s;
-}
-
-.p3 {
-	animation-delay: 1.3s;
-}
-
-.p4 {
-	animation-delay: 1.4s;
-}
-
-.ul-list {
-	animation: pulse 1s;
-  animation-delay: 1.5s
-}

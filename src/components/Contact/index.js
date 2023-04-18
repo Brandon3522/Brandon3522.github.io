@@ -51,7 +51,7 @@ const Contact = () => {
                     required
                   ></input>
                 </li>
-                <li>
+                <li className='subject'>
                   <input
                     placeholder="Subject"
                     type="text"
