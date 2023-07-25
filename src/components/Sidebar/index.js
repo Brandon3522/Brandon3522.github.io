@@ -7,19 +7,24 @@ import {
   faUser,
   faEnvelope,
   faComputer,
-	faBars,
-	faClose,
+  faBars,
+  faClose,
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { useState } from 'react'
 
 const Sidebar = () => {
-	const [mobileNavBar, setMobileNavBar] = useState(false);
+  const [mobileNavBar, setMobileNavBar] = useState(false)
 
   return (
     <div className="nav-bar">
       <nav className={mobileNavBar ? 'show-mobile' : ''}>
-        <NavLink exact="true" activeclassname="active" to="/" onClick={() => setMobileNavBar(false)}>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          to="/"
+          onClick={() => setMobileNavBar(false)}
+        >
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" size="lg" />
         </NavLink>
         <NavLink
@@ -27,7 +32,7 @@ const Sidebar = () => {
           activeclassname="active"
           className="about-link"
           to="/about"
-					onClick={() => setMobileNavBar(false)}
+          onClick={() => setMobileNavBar(false)}
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" size="lg" />
         </NavLink>
@@ -36,7 +41,7 @@ const Sidebar = () => {
           activeclassname="active"
           className="contact-link"
           to="/contact"
-					onClick={() => setMobileNavBar(false)}
+          onClick={() => setMobileNavBar(false)}
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" size="lg" />
         </NavLink>
@@ -45,17 +50,17 @@ const Sidebar = () => {
           activeclassname="active"
           className="projects-link"
           to="/projects"
-					onClick={() => setMobileNavBar(false)}
+          onClick={() => setMobileNavBar(false)}
         >
           <FontAwesomeIcon icon={faComputer} color="#4d4d4e" size="lg" />
         </NavLink>
-				<FontAwesomeIcon
-					icon={faClose}
-					className='hamburger-close'
-					color='#00adb5'
-					size='3x'
-					onClick={() => setMobileNavBar(false)}
-				/>
+        <FontAwesomeIcon
+          icon={faClose}
+          className="hamburger-close"
+          color="#00adb5"
+          size="3x"
+          onClick={() => setMobileNavBar(false)}
+        />
       </nav>
       <ul>
         <li>
@@ -87,13 +92,13 @@ const Sidebar = () => {
           </a>
         </li>
       </ul>
-			<FontAwesomeIcon
-				icon={faBars}
-				color='#00adb5'
-				size='3x'
-				onClick={() => setMobileNavBar(true)}
-				className='hamburger-icon'		
-			/>
+      <FontAwesomeIcon
+        icon={faBars}
+        color="#00adb5"
+        size="3x"
+        onClick={() => setMobileNavBar(true)}
+        className="hamburger-icon"
+      />
     </div>
   )
 }

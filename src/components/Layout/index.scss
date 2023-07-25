@@ -24,7 +24,7 @@
   h1 {
     font-size: 53px;
     font-family: 'Coolvetica';
-    color: #00ADB5;
+    color: #00adb5;
     font-weight: 400;
     margin-top: 0;
     position: relative;
@@ -34,12 +34,12 @@
 
   p {
     font-size: 20px;
-    color: #EEEEEE;
+    color: #eeeeee;
     font-family: sans-serif;
     font-weight: 300;
     min-width: fit-content;
   }
-  
+
   .text-zone {
     position: absolute;
     left: 10%;
@@ -54,20 +54,20 @@
     text-decoration: none;
     columns: 2;
     font-size: 20px;
-    color: #EEEEEE;
+    color: #eeeeee;
     font-family: sans-serif;
     font-weight: 300;
   }
 }
 
 @media screen and (max-width: 800px) {
-	.page {
-		position: initial;
-	}
+  .page {
+    position: initial;
+  }
 
-	.container {
-		position: initial;
-		height: auto;
-		min-height: auto;
-	}
+  .container {
+    position: initial;
+    height: auto;
+    min-height: auto;
+  }
 }

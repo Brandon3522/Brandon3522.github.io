@@ -23,8 +23,8 @@ const About = () => {
           In addition to my academic achievements, I have experience working on
           a variety of programming projects, including developing desktop
           applications and web-based systems. I am proficient in C#, Python, and
-          JavaScript and have experience working with React.js. When
-          I'm not programming, I enjoy playing guitar and listening to music.
+          JavaScript and have experience working with React.js. When I'm not
+          programming, I enjoy playing guitar and listening to music.
         </p>
         <p className="p4">Languages / Technologies used:</p>
 

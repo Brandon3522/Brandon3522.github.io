@@ -17,7 +17,10 @@ const Projects = () => {
                 <p className="title">{project.title}</p>
                 <h4 className="description">{project.description}</h4>
                 <h4 className="tools">{project.tools}</h4>
-                <button className="btn" onClick={() => window.open(project.url)}>
+                <button
+                  className="btn"
+                  onClick={() => window.open(project.url)}
+                >
                   View
                 </button>
               </div>
